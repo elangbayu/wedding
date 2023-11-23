@@ -13,9 +13,23 @@ export default function Page({ params }) {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       <div className="flex flex-col relative px-12">
-        <p className="text-4xl text-left font-bold">{`Hai ${params.slug},`}</p>
-        <p className="mb-20 text-lg text-left">
-          kamu diundang ke acara pernikahan Elang dan Wiwit.
+        <p className="subpixel-antialiased text-2xl text-left font-bold mb-3">{`Hai ${params.slug},`}</p>
+        <p className="subpixel-antialiased mb-20 text-base text-left text-gray-200">
+          kamu diundang ke acara pernikahan{" "}
+          <a
+            className="underline decoration-red-500 decoration-4 font-semibold text-white"
+            href="https://instagram.com/crmegl"
+          >
+            Elang
+          </a>{" "}
+          dan{" "}
+          <a
+            className="underline decoration-sky-300 decoration-4 font-semibold text-white"
+            href="https://instagram.com/wwt.wi"
+          >
+            Wiwit
+          </a>
+          .
         </p>
       </div>
       <div className="flex flex-row relative place-items-center">
