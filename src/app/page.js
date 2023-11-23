@@ -11,7 +11,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-row items-center justify-center">
+    <main className="flex min-h-screen flex-row items-center justify-center bg-gradient-to-br from-sky-100 to-red-100">
       <div className="relative flex place-items-center">
         <a onClick={handleChange}>
           <Image

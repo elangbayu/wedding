@@ -11,20 +11,20 @@ export default function Page({ params }) {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-sky-100 to-red-100">
       <div className="flex flex-col relative px-12">
-        <p className="subpixel-antialiased text-2xl text-left font-bold mb-3">{`Hai ${params.slug},`}</p>
-        <p className="subpixel-antialiased mb-20 text-base text-left text-gray-200">
+        <p className="subpixel-antialiased text-2xl text-left font-bold mb-3 text-neutral-800">{`Hai ${params.slug},`}</p>
+        <p className="subpixel-antialiased mb-20 text-base text-left text-neutral-600">
           kamu diundang ke acara pernikahan{" "}
           <a
-            className="underline decoration-red-500 decoration-4 font-semibold text-white"
+            className="underline decoration-red-500 decoration-4 font-semibold text-neutral-800"
             href="https://instagram.com/crmegl"
           >
             Elang
           </a>{" "}
           dan{" "}
           <a
-            className="underline decoration-sky-300 decoration-4 font-semibold text-white"
+            className="underline decoration-sky-300 decoration-4 font-semibold text-neutral-800"
             href="https://instagram.com/wwt.wi"
           >
             Wiwit
